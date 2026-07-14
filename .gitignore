@@ -1,0 +1,33 @@
+# Archivos de compilación de .NET
+[Bb]in/
+[Oo]bj/
+
+# Archivos de configuración de usuario de Visual Studio/VS Code
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de salida de Avalonia y herramientas
+*.log
+*.tmp
+*.bak
+
+# Bases de datos y archivos de huellas locales
+*.db
+*.sqlite
+*.raw
+*.bin
+
+# DLLs externas (a menos que sean parte de tu código fuente esencial,
+# pero idealmente se gestionan mediante paquetes NuGet)
+*.dll
+*.exe
+
+# Carpetas de paquetes NuGet
+packages/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
